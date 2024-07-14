@@ -4,6 +4,7 @@ REM Pull latest changes from the repository
 git pull
 
 REM Start the Next.js development server
+npm install
 start "" npm run dev
 timeout /t 5 /nobreak >nul
 
