@@ -64,7 +64,7 @@ IF %ERRORLEVEL% NEQ 0 (
   
   REM Install project dependencies
   echo Installing project dependencies...
-  npm install > nul 2>&1
+  npm install
   IF %ERRORLEVEL% NEQ 0 (
     echo Warning: Failed to install project dependencies. Continuing with setup...
   ) ELSE (
